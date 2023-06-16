@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лучший рестаран в Москае</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./пример.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  
+  <section id="go-home" class="bg-1 banner">
+    <div class="container">
+      <nav class="navbar navbar-dark absolute-top">
+        <div class="container">
+          <button class="navbar-toggler mx-auto mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start text-bg-dark toggler__expand" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active"  href="">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"  href="#go-events">Новости</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#our-dishes">Меню</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#book-table">Заявка</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="row justify-content-center">
+        <div class="col-12 align-items-center">
+          <img src="./img/logo.png" alt="logo" class="mx-auto d-block logo">
+          <h1 class="text-center text-light banner__header">Один шаг к хорошему старту</h1>
+        </div>
+        <div class="row justify-content-center">  
+          <p class="col-12 col-xl-6 text-center text-light banner__text">Mauris fermentum tortor non enim aliquet condimentum. Nam aliquam pretium feugiat. Duis sem
+            est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin
+            eu scelerisque pretium, placerat eget elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container slogan">
+    <div class="row justify-content-center">
+      <h5 class="text-center text-uppercase slogan__header">О НАШЕМ РЕСТОРАНЕ</h5>
+      <h2 class="col-11 col-xl-10 text-center slogan__text">Эксклюзивный <i><b> ресторан в Париже,</b></i> лучший способ получить потрясающую еду от лучших Повара в городе.
+        <i><b>Отличная атмосфера включена.</b></i></div>
+    </div>
+  </section>
+  <section class="container-fluid text-center cards">
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col cards__card_bg1"></div>
+      <div class="col cards__card">
+        <h6 class="text-center text-uppercase cards__card__topic">ИСТОРИЯ</h6>
+        <h4 class="text-center cards__card__header">Strange story of the emergence of healthy food.</h4>
+        <p class="cards__card__text">Странная
+          история появления здорового питания</p>
+        <a href="" class="text-uppercase link-dark link-offset-3 link-underline-opacity-100 link-underline-opacity-75-hover cards__card__link">read more</a>
+      </div>
+      <div class="col cards__card_bg2"></div>
+      <div class="col cards__card">
+        <h6 class="text-center text-uppercase cards__card__topic">СООБЩЕСТВО</h6>
+        <h4 class="text-center cards__card__header">Здоровое питание в соцсетях, с нами интересно</h4>
+        <p class="cards__card__text">У нас есть сообщество в вк. В нем публикуются новые посты и добовление в меню новых блюд</p>
+        <a href="" class="text-uppercase link-dark link-offset-3 link-underline-opacity-100 link-underline-opacity-75-hover cards__card__link">Читать дальше</a>
+      </div>
+      <div class="col cards__card_bg3"></div>
+      <div class="col cards__card">
+        <h6 class="text-center text-uppercase cards__card__topic">ФИЛОСОФИЯ</h6>
+        <h4 class="text-center cards__card__header">Только лучшая еда, лучшие музыканты, лучшие гости.</h4>
+        <p class="cards__card__text">Много видов блюд из различных стран</p>
+        <div>
+        <a href="" class="text-uppercase link-dark link-offset-3 link-underline-opacity-100 link-underline-opacity-75-hover cards__card__link">Читать дальше</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="go-events" class="container events">
+    <div class="row justify-content-center">
+      <h5 class="text-center text-uppercase events__description">СОБЫТИЯ</h5>
+      <h2 class="col-11 col-xl-10 text-center events__header"><b>Мероприятия здорового питания</b></h2>
+    </div>
+    <div class="row text-center row-cols-1 row-cols-md-3 events__cards">
+      <div class="col events__cards__card">
+        <h2 class="events__day">26</h2>
+        <h5 class="text-uppercase events__month">April</h5>
+        <p class="events__text">Гигиена питания — это отрасль гигиены, изучающая проблемы полноценной пищи и
+          рационального питания здорового человека. 
+          В процессе развития из гигиены питания выделилась диетология,
+           изучающая питание больных и разрабатывающая принципы лечебного питания. 
+         Самостоятельным разделом является и изучение питания в раннем возрасте</p>
+      </div>
+      <div class="col">
+        <h2 class="events__day">17</h2>
+        <h5 class="text-uppercase events__month">September</h5>
+        <p class="events__text">Гигиена питания (далее по тексту ГП) - изучает питание человека в 
+          зависимости от пола, возраста, профессии, характера труда, физической нагрузки, 
+          климатических условий, национальных и других особенностей, 
+          количественной и качественной стороны питания населения различных районов 
+          и определяет потребность людей в 
+          пищевых веществах соотв. условиям жизни и труда.</p>
+      </div>
+      <div class="col">
+        <h2 class="events__day">19</h2>
+        <h5 class="text-uppercase events__month">December</h5>
+        <p class="events__text">1. Снабжении организма энергией.
+
+          В этом смысле человека можно сравнить с любой 
+          машиной, совершающей работу, но требующей для этого поступления топлива.
+           Рациональное питание предусматривает примерный баланс поступающей
+            в организм энергии, 
+          расходуемой на обеспечение процессов жизнедеятельности.</p>
+      </div>
+    </div>
+    <div class="row">
+      <button class="col-5 col-md-3 col-lg_2 btn btn-outline-dark text-center mx-auto text-uppercase events__button" >Читать дальше</button>
+    </div>
+  </section>
+
+  
+<section id="feedbackIndicators" class="carousel slide feedback" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#feedbackIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#feedbackIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active feedback__banner bg-5">
+      <div class="justify-content-center">
+        <h5 class="text-center text-uppercase text-light slogan__header">feedback</h5>
+        <h2 class="text-center text-light feedback__text">Exclusive <b><i>restaurant in Paris</i>,</b> the ultimate way to get amazing food from the best chefs in the city. <b><i>Great atmosphere included</i>.</b></h2>
+      </div>
+    </div>
+    <div class="carousel-item feedback__banner bg-4">
+      <div class="justify-content-center">
+        <h5 class="text-center text-uppercase text-light slogan__header">feedback</h5>
+        <h2 class="text-center text-light feedback__text">Exclusive <b><i>restaurant in Paris</i>,</b> the ultimate way to get amazing food from the best chefs in the city. <b><i>Great atmosphere included</i>.</b></h2>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#feedbackIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#feedbackIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</section>
+
+  <section id="our-dishes" class="container our__menu">
+    <div class="row justify-content-center">
+      <h5 class="text-center text-uppercase events__description">our menu</h5>
+      <h2 class="col-11 col-xl-10 text-center events__header"><b>Delicious From The Chef</b></h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 text-center gy-5 menu__list">
+      <div class="col menu__card">
+        <h5 class="text-uppercase menu__card__header">САЛАТ ЦЕЗАРЬ / 550 руб</h5>
+        <p class="menu__card__text">Салат романо, тертый сыр пармезан, хрустящие крутоны, соус Цезарь/p>
+      </div>
+      <div class="col menu__card">
+        <h5 class="text-uppercase menu__card__header">КОББ САЛАТ / 850 руб</h5>
+        <p class="menu__card__text">Листья зеленого салата, куриная грудка гриль, бекон, яйцо пашот,
+          томаты, авокадо с крошкой сыра Чеддер, блю чиз и домашней заправкой</p>
+      </div>
+      <div class="col menu__card">
+        <h5 class="text-uppercase menu__card__header">САЛАТ С ТУНЦОМ И ПЕРЕПЕЛИНЫМ ЯЙЦОМ / 870 руб</h5>
+        <p class="menu__card__text">Филе тунца, руккола, авокадо, томаты, перепелиное яйцо, лимонная заправка</p>
+      </div>
+      <div class="col menu__card">
+        <h5 class="text-uppercase menu__card__header">БУРАТА НА ЛЕПЕШКЕ / 850 руб</h5>
+        <p class="menu__card__text">Honey Vinaigrette / House Cheese Crouton / Fine Herbs</p>
+      </div>
+      <div class="col menu__card">
+        <h5 class="text-uppercase menu__card__header">КАРПАЧЧО ИЗ СВЕКЛЫ /550 руб</h5>
+        <p class="menu__card__text">>Карпаччо из свеклы и тыквы с кедровыми орешками, листьями салата и домашней заправкой</p>
+      </div>
+      <div class="col menu__card">
+        <h5 class="text-uppercase menu__card__header">САЛАТ ИЗ СВЕЖИХ ОВОЩЕЙ / 550 руб</h5>
+        <p class="menu__card__text">Valerima de Savoie / 
+          Chips d'Ortie / Sauce Moule en Gelée / Décoction de Progadra</p>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid galery">
+    <div class="galery__large-pic"></div>
+    <div class="galery__middle-pic"></div>
+    <div class="galery__small-pic bg-2"></div>
+    <div class="galery__small-pic bg-3"></div>
+  </section>
+  <section class="container figures">
+    <div class="row text-center row-cols-1 row-cols-lg-4 figures__cards">
+      <div class="col figures__cards__card">
+        <img src="/img/animat1.png" alt="Meat" class="mx-auto d-block figures__cards__card__icon">
+        <h5 class="figures__cards__card__number">840</h5>
+        <p class="text-uppercase figures__cards__card__text">Мясо</p>
+      </div>
+      <div class="col figures__cards__card">
+        <img src="/img/animat2.png" alt="Meat" class="mx-auto d-block figures__cards__card__icon">
+        <h5 class="figures__cards__card__number">350</h5>
+        <p class="text-uppercase figures__cards__card__text">Пицца</p>
+      </div>
+      <div class="col figures__cards__card">
+        <img src="/img/animat3.png" alt="Meat" class="mx-auto d-block figures__cards__card__icon">
+        <h5 class="figures__cards__card__number">900</h5>
+        <p class="text-uppercase figures__cards__card__text">Круасаны</p>
+      </div>
+      <div class="col text-uppercase text-center align-items-center justify-content-center figures__cards__card__declaration">  Мы готовим каждый день </div>
+    </div>
+  </section>
+  <section id="book-table" class="container contact-us">
+    <div class="row justify-content-center">
+      <h5 class="text-center text-uppercase contact-us__description">contact us</h5>
+      <h2 class="col-11 col-xl-10 text-center contact-us__header"><b>Get in touch</b></h2>
+    </div>
+    <form action="" method="get">
+      <div class="row row-cols-2">
+        <input type="text" name="user-name" placeholder="Enter your name" class="col-9 col-md-5 mx-auto mt-4 mb-2 form-control-lg contact-us__form__field">
+      </div>
+      <div class="row row-cols-2">
+        <input type="email" name="user-email" placeholder="Enter valid e-mail address" class="col-9 col-md-5 mx-auto form-control-lg contact-us__form__field">
+      </div>
+      <div class="row row-cols-2">
+        <div class="col-9 col-md-5 mx-auto mt-2">
+          <input type="checkbox" id="acceptTerms" name="acceptTerms" value="true">
+          <label for="acceptTerms">I accept
+            <a href="" class="link-underline-light link-underline-opacity-0">Terms of Service</a>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" class="col-5 col-md-2 col-lg_2 btn btn-outline-dark text-center mx-auto text-uppercase contact-us__button">Submit</button>
+      </div>
+    </form>
+  </section>
+  <footer class="container-fluid align-items-center jusify-content-center text-center mt-5">
+    <div class="row row-cols-3">
+      <p class="col-9 col-md-5 mx-auto mt-2 text-light pt-4 disclaimer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facilis? Dignissimos, sed suscipit asperiores libero hic deleniti voluptatum doloremque quas!</p>
+  </div>
+  </footer>
+</body>
+</html>
